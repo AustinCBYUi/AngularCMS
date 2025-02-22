@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  /*--mat-sys-on-surface: white;*/
+  --mat-list-item: border-radius 0;
+}
+
+.mat-list-item, .square-list {
+  border-radius: 0 !important;
+  padding: 8px;
+  height: auto;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

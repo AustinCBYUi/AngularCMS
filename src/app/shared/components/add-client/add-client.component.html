@@ -1,0 +1,48 @@
+<h2>Add New Client</h2>
+
+<form (ngSubmit)="addClient()" #addClientForm="ngForm">
+  <div class="fun">
+    <label for="firstName" class="visually-hidden">First Name:</label>
+    <input id="firstName" name="firstName" [(ngModel)]="newClient.firstName" class="form-control" placeholder="First Name">
+  </div>
+
+  <div class="fun">
+    <label for="lastName" class="visually-hidden">Last Name:</label>
+    <input id="lastName" name="lastName" [(ngModel)]="newClient.lastName" class="form-control" placeholder="Last Name">
+  </div>
+
+  <div class="fun">
+    <label for="email" class="visually-hidden">Email:</label>
+    <input type="email" id="email" name="email" [(ngModel)]="newClient.email" class="form-control" placeholder="Email">
+  </div>
+
+  <div class="fun">
+    <label for="business" class="visually-hidden">Business:</label>
+    <input id="business" name="business" [(ngModel)]="newClient.business" class="form-control" placeholder="Business">
+  </div>
+
+  <div class="fun">
+    <label for="phoneNumber" class="visually-hidden">Phone Number:</label>
+    <input id="phoneNumber" name="phoneNumber" [(ngModel)]="newClient.phoneNumber" class="form-control" placeholder="Phone Number">
+  </div>
+
+  <div class="fun visually-hidden">
+    <label for="createdDate">Created Date:</label>
+    <input type="date" id="createdDate" name="createdDate" [(ngModel)]="newClient.createdDate" class="form-control" placeholder="Created Date">
+  </div>
+
+  <div class="fun">
+    <label for="lastServiced">Last Serviced Date:</label>
+    <input type="date" id="lastServiced" name="lastServiced" [(ngModel)]="newClient.lastServiced" class="form-control" placeholder="Last Serviced Date">
+  </div>
+
+  <div class="fun">
+    <label for="accountNotes" class="visually-hidden">Account Notes:</label>
+    <input type="text" id="accountNotes" name="accountNotes" [(ngModel)]="newClient.accountNotes" class="form-control" placeholder="Account Notes">
+  </div>
+
+  <div class="button-group">
+    <button type="submit" class="btn btn-primary">Add Client</button>
+    <button type="button" class="btn btn-outline-info" routerLink="/clients">Cancel</button>
+  </div>
+</form>
