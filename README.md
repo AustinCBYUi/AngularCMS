@@ -31,12 +31,11 @@ The following are items used during development:
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Angular Documentation](https://angular.dev/)
+* [Stack Overflow](https://stackoverflow.com/questions)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Improve forms with icons for required fields
+* Add in authentication
+* Continue adding more features to the application.
